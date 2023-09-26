@@ -38,8 +38,7 @@ gsub_file(
 # README
 ########################################
 markdown_file_content = <<~MARKDOWN
-  Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
-MARKDOWN
+  Portfolio 
 file "README.md", markdown_file_content, force: true
 
 # Generators
@@ -117,5 +116,5 @@ after_bundle do
   ########################################
   git :init
   git add: "."
-  git commit: "-m 'Initial commit with minimal template from https://github.com/lewagon/rails-templates'"
+  git commit: "-m 'Initial commit with minimal template edited by myself"
 end
